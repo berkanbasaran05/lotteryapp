@@ -5,6 +5,7 @@ import { useAddress, useContract, useContractWrite } from "@thirdweb-dev/react";
 import Login from '../components/Login';
 import Loading from '../components/Loading';
 import { useState } from 'react';
+import NavButton from '../components/NavButton';
 
 
 const Home: NextPage = () => {
@@ -49,7 +50,7 @@ const Home: NextPage = () => {
        
        {/** price per ticket */}
      
-      <div className="stats-container space-y-2"> 
+      <div className="stats-container flex flex-col space-y-10"> 
       <div className="stats-container"> 
        <div className='flex justify-between space-x-5 items-center text-white '>
         <h2>Price per ticket</h2>
@@ -82,7 +83,8 @@ const Home: NextPage = () => {
        </div>
         
        </div>
-   
+       
+       <button className='p-4 mt-4 bg-gray-500 w-full rounded-lg'>Buy Ticket </button>
 
       </div>
     </div>
