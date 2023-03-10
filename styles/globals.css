@@ -3,13 +3,22 @@
 @tailwind utilities;
 
 @layer components {
+    
 
     .stats{
-        @apply bg-gray-800 text-white p-3 flex-1 rounded-md border-2
+        @apply bg-gray-900 text-white p-3 flex-1 max-w-3xl rounded-md border-2
     }
     
     .stats-container {
         @apply bg-gray-900 p-5 rounded-lg border-2
+    }
+
+    .countdown { 
+        @apply p-8 text-5xl text-center text-white rounded-lg lg:min-w-[150px] bg-gradient-to-br from-gray-800 to-gray-300
+    }
+
+    .countdown-label {
+        @apply text-center text-white uppercase text-sm pt-4
     }
 
 }
