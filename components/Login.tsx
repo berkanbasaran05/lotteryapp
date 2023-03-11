@@ -19,6 +19,7 @@ function Login() {
     <div className='bg-black h-screen w-screen items-center mx-auto justify-center flex flex-col'>
    
         <div className='flex flex-col items-center space-y-5'>
+          <img src='https://cdn.pixabay.com/photo/2018/05/23/04/32/cryptocurrency-3423264_1280.jpg' className='w-52 h-52'></img>
          <h5 className='uppercase tracking-[10px] text-white md:text-[60px] text-[30px] '> {text}</h5>
           
          <h1 className='text-white items-center'>{textdesc}</h1>

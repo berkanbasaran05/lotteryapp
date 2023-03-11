@@ -40,7 +40,7 @@ function Header() {
       
 
       <motion.div initial={{opacity:0 , x:50}} whileInView={{opacity:1, x:0}} transition={{duration:1.5}}>
-        <div className='flex flex-col ml-auto text-right items-center'>
+        <div className='flex md:hidden flex-col ml-auto text-right items-center'>
             <Bars3BottomRightIcon className='w-8 h-8'/>
             <span className='text-xs md:hidden'>
                 <NavButton onClick={disconnect} title='Logout'/>
